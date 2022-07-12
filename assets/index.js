@@ -37,7 +37,7 @@ function resetGame() {
     setColors();
     statusEl.innerHTML =
       "Try to guess the right color based on the RGB value by clicking on the blocks.";
-    },800);
+    },1200);
 }
 function setColors() {
   for (var i = 0; i < colorsBlocks.length; i++) {
